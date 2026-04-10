@@ -1,0 +1,16 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="36.339063">
+<testsuite name="framehandalling.spec.js" timestamp="2026-04-02T10:01:35.249Z" hostname="chromium" tests="1" failures="0" skipped="0" time="24.763" errors="0">
+<testcase name="frame handling" classname="framehandalling.spec.js" time="24.763">
+<system-out>
+<![CDATA[Total frames in the page:  [33m7[39m
+
+[[ATTACHMENT|test-results\framehandalling-frame-handling-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\framehandalling-frame-handling-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\framehandalling-frame-handling-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+{
+  "name": "playwright-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaykhule143/testing_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ajaykhule143/testing_project/issues"
+  },
+  "homepage": "https://github.com/ajaykhule143/testing_project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.3.1",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.2.1"
+  }
+  
+}

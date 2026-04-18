@@ -1,4 +1,5 @@
 // @ts-check
+<<<<<<< HEAD
 import { defineConfig, devices } from '@playwright/test';
 
 /**
@@ -79,3 +80,25 @@ export default defineConfig({
   // },
 });
 
+=======
+import { test, expect } from '@playwright/test';
+
+test('has title', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+  await page.waitForTimeout(4000);
+});
+
+test('get started link', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Click the get started link.
+  await page.getByRole('link', { name: 'Get started' }).click();
+
+  // Expects page to have a heading with the name of Installation.
+  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await page.waitForTimeout(4000);
+});
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780

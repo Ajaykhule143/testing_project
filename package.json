@@ -1,15 +1,42 @@
 {
+<<<<<<< HEAD
   "name": "practice",
+=======
+  "name": "playwright-js",
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
+<<<<<<< HEAD
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaykhule143/testing_project.git"
+  },
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+<<<<<<< HEAD
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0"
   }
+=======
+  "bugs": {
+    "url": "https://github.com/ajaykhule143/testing_project/issues"
+  },
+  "homepage": "https://github.com/ajaykhule143/testing_project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.3.1",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.2.1"
+  }
+  
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780
 }

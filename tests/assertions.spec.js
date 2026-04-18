@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 const { test, expect } = require('@playwright/test');
 test('Assertions', async ({ page }) => {
+=======
+const {test, expect} = require('@playwright/test');
+
+test('assertions', async ({page}) => {
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780
 
     await page.goto("https://demo.nopcommerce.com/register");
     await page.waitForTimeout(4000);
     await expect(page).toHaveURL("https://demo.nopcommerce.com/register");
     await expect(page).toHaveTitle("nopCommerce demo store. Register");
+<<<<<<< HEAD
     await page.waitForTimeout(4000);
     const logo = page.locator("//div[@class='header-logo']");
     await expect(logo).toBeVisible();
@@ -32,3 +39,7 @@ test('Assertions', async ({ page }) => {
     await expect(options).toHaveCount(3);
     await page.waitForTimeout(2000);
 });
+=======
+    await page.waitForTimeout(3000);
+})
+>>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780

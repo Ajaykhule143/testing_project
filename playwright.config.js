@@ -23,9 +23,6 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-<<<<<<< HEAD
-  reporter: 'html',
-=======
  reporter: 'html', 
   // reporter: [['list'],//allure reporter hai ye simple report chahiye to upar wala use karo
   //           ['html'],
@@ -33,7 +30,6 @@ export default defineConfig({
   //           ['json', { outputFile: 'results.json' }],
   //           ['allure-playwright', { outputFolder: 'my-allure-results' }]
   //],
->>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -91,96 +87,3 @@ export default defineConfig({
   // },
 });
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   ######################           comprehensive-all-fixed.spec.js ################################
-// 
-
-// for this only below config is used, for other tests above config is used
-// const { defineConfig, devices } = require('@playwright/test');
-
-// module.exports = defineConfig({
-//   testDir: './tests',
-//   fullyParallel: false,  // Sequential for demos
-//   forbidOnly: !!process.env.CI,
-//   retries: 2,
-//   timeout: 60000,
-  
-//   reporter: [['html', { open: 'never' }]],
-  
-//   use: {
-//     baseURL: 'https://opensource-demo.orangehrmlive.com',
-//     trace: 'on-first-retry',
-//     screenshot: 'only-on-failure',
-//     video: 'retain-on-failure',
-//     actionTimeout: 15000,
-//     navigationTimeout: 15000
-//   },
-
-//   projects: [
-//     {
-//       name: 'chromium',
-//       use: { ...devices['Desktop Chrome'], launchOptions: { slowMo: 100 } }
-//     }
-//   ],
-
-//   expect: { timeout: 10000 }
-// });
-=======
->>>>>>> 8d5944408e81b97cf830a75624e4fa73406d8780

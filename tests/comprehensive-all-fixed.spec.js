@@ -15,7 +15,7 @@ test.describe('OrangeHRM Login - ALL 16 Tests FIXED ✅', () => {
   });
 
   // ========== 02. ASSERTIONS & EXPECTATIONS ==========
-  test('02 - Complete Assertions', async ({ page }) => {
+  test.only('02 - Complete Assertions', async ({ page }) => {
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     
     // Login page assertions
